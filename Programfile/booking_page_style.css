@@ -1,0 +1,28 @@
+/* CSS Document */
+
+td.can_be_booked{
+	background: greenyellow;
+}
+		
+td.cannot_be_booked{
+	background: red;
+	cursor: not-allowed; /* Change the sign of cursor */
+}
+		
+.centered-block {
+	display: flex; /* Create a flex container for the color block*/
+	justify-content: center; 
+	align-items: center; /* Make all items align center */
+}
+		
+.color-block1 {
+	background-color: greenyellow;
+	width: 20px;
+	height: 20px;
+}
+		
+.color-block2 {
+	background-color: red;
+	width: 20px;
+	height: 20px;
+}
