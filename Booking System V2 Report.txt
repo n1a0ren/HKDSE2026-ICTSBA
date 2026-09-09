@@ -1,0 +1,12 @@
+2026.9.9
+开始上网搜寻免费网站UI模板套用
+https://www.templatemonster.com/cn/free-templates/italian-restaurant-website-template-51689.html
+今天先做一个主页面出来
+我把模板主页面上我勿需用到的元素删掉，在需要用到的内容容器中填进我想要的效果
+
+我想把我曾经为了判断登录cookie的php更换成JS，但我的js水平太差，只能找ai要代码
+并且我还想实现一个效果：将登录的入口内容动态化，如果已登入，就显示名字+sing out，反之就显示sign in+sing up
+现在ai给了我一串function，但是我无法正常套用到我的网页上，修复中。。。
+解决了，这次跟着AI debug学到了用F12控制台测试JS执行和监测脚本状态。这此bug最根本的原因是模板的其他脚本会重新渲染导航栏，导致清空我一开始给sign in的容器的内容。最后是使用MutationObserver监听和自动重绘的策略，解决被清空的问题。
+
+
